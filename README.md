@@ -1,4 +1,4 @@
-# SniperPro - Open Source Standalone Miner
+# Solana Vanity Miner - Open Source Standalone
 
 A high-performance, multi-threaded CPU miner for generating Solana vanity addresses using native `ed25519-dalek` cryptography.
 
@@ -17,14 +17,14 @@ This repository is provided as a **Zero-Trust** alternative to our cloud service
 Clone the repository and compile the highly-optimized release binary.
 
 ```bash
-git clone https://github.com/YOUR_GITHUB_ACCOUNT/sniperpro-miner.git
-cd sniperpro-miner
+git clone https://github.com/bavtika/solana-vanity-miner.git
+cd solana-vanity-miner
 cargo build --release
 ```
 
 ## Usage
 
-After compiling, the binary will be located at `./target/release/sniperpro-miner`.
+After compiling, the binary will be located at `./target/release/solana-vanity-miner`.
 
 ### Basic Search (Prefix)
 Finds any address starting with `pump` (case-insensitive by default).
@@ -56,7 +56,7 @@ As the miner runs, it will print a live Hashrate (Keys checked per second).
 When a match is found, the miner **stops immediately** and prints the unencrypted private key directly to your terminal screen:
 
 ```
-🚀 SniperPro Standalone Miner
+🚀 Solana Vanity Miner Standalone
 =============================
 Pattern: PUMP
 Position: Prefix
