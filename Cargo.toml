@@ -1,0 +1,11 @@
+[package]
+name = "sniperpro-miner"
+version = "1.0.0"
+edition = "2021"
+
+[dependencies]
+bs58 = "0.5"
+rand = "0.8"
+clap = { version = "4.4", features = ["derive"] }
+ed25519-dalek = { version = "2.1", features = ["rand_core"] }
+num_cpus = "1.16"
