@@ -1,5 +1,5 @@
 [package]
-name = "sniperpro-miner"
+name = "solana-vanity-miner"
 version = "1.0.0"
 edition = "2021"
 
