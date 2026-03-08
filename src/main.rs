@@ -38,7 +38,7 @@ fn main() {
     
     let num_threads = cli.threads.unwrap_or_else(|| num_cpus::get());
     
-    println!("🚀 SniperPro Standalone Miner");
+    println!("🚀 Solana Vanity Miner Standalone");
     println!("=============================");
     println!("Pattern: {}", pattern);
     println!("Position: {}", if is_prefix { "Prefix" } else { "Suffix" });
